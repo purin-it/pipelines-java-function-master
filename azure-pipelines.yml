@@ -6,8 +6,10 @@
 trigger:
 - master
 
+pr: none
+
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-latest'
 
 variables:
   # the name of the service connection that you created above
